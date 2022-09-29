@@ -1,0 +1,26 @@
+chart 
+graph bano
+
+x = snr 
+y corr 
+dost n dcst both 
+values note karne ke liye yeah karo - 
+fir dono ko ek saath plot karo
+
+prposed scheme 
+embedding sys 
+which noise - WHite gaussian noise
+description of that noise
+then extraction
+performance measure 
+corr and coeff
+
+why compression to be done 
+
+read the tutorial of dost --- read dost2_tutorial.txt
+
+maths of dost ---- read dost2.txt
+
+conclusion - dcst is better for watermarking cause compression
+
+ 

@@ -1,0 +1,42 @@
+columns of U === left singular vectors
+columns of V=== right singular vectors
+square and invertible matrix A , inverse of matrix A is V(D^-1)(U^t)
+in dicreeet it captures both frequency and location information here
+unlike fourier - in which only no temporal resolution is there
+
+applied the dwt 2 times - first in img and then on ll2-low freq horizontal and vertical component
+then inseert wtr in ll2 
+and store the size of ll2 in variable p in t
+
+define watermark
+3d img -- so first part only 
+singlur v d on image n only works on 2 d images 
+
+ apply svd on watramk
+embed watermark ini orig --
+Smark = Sy  + aplah*Sw;
+
+rebuild subbands
+ll2_1 = Uy*Smark*Sw;
+
+LL1_1 = idwt2(LL2_1 , HL2 , LH2 , HH2 , 'haar');
+I_1 = idwt2(LL1_1 , HL1 , LH1 , HH1 , 'haar');
+
+apply svd on watermark - multiply by alpha -- add to Sy
+
+ranl one matrix as A = sig1u1v1t + sig2u2v2t + ... + sigrurvrt
+
+consider the host image matrix 'I' and apply SVD on host image to get matrix U , D ,V 
+modify its singular value S using watermark image W of size m*n as D' 
+apply SVD on D' to further obtain D"
+
+modifying singular value D using watermark image W of size mxn
+colored image --- vector function
+I = UDVt // recombine to get 
+D' = D + (alpha)W
+
+now , apply SVD on D'  to obtain corresponding values od D"
+D' = U'D"V't
+
+
+

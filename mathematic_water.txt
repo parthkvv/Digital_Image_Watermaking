@@ -1,0 +1,26 @@
+the hybrid of discrete wavelet and singular value decomposition watermarking themes
+
+imperceptibility and robustness
+Stir mark
+
+data analysis , image hiding , image compression , noise reduction , camera callibration
+for staellite data solving most linear equations
+
+SVD is a context of data analytics , dimensional reduaction and satellite data and image processing .
+factorization of a into 3 mat ---  2 orthogonal and one diagonal
+A = UD(V^t)
+
+columns of U the left singular vectors
+columns of V the right singular vectors
+diagonals elements of D the  singular values of matrix A
+
+to establish the decomposition first multiply 
+AV = DU
+by taking the transpose of Eq1 again we get yet another
+At = V(D^t)(U^t)
+
+and then multiply from the right to U to obtain 
+A^tU = VD^t
+
+
+
